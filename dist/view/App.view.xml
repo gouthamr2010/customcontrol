@@ -1,0 +1,14 @@
+<mvc:View controllerName="com.gr.customcontrol.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" xmlns:wt="com.gr.reuse.controls">
+	<App id="app">
+		<pages>
+			<Page id="page" title="{i18n>title}">
+				<content>
+					<VBox>
+						<wt:ProductRating class="sapUiSmallMarginBeginEnd" change="onRatingChange" />
+						<wt:Square class="sapUiSmallMargin" text="Test" />
+					</VBox>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

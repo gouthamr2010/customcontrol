@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/mvc/Controller","sap/m/MessageToast"],function(e){"use strict";return e.extend("com.gr.customcontrol.controller.App",{onInit:function(){},onRatingChange:function(e){var t=e.getParameter("value");var n=this.getView().getModel("i18n").getResourceBundle();MessageToast.show(n.getText("ratingConfirmation",[t]))}})});
